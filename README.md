@@ -27,7 +27,7 @@
 
 ## 環境:
 
-開發工具: uni-app、Hbuilder
+開發工具: uni-app、Hbuilder、Sublime
 
 前端: HTML、JavaScript、CSS
 
@@ -36,6 +36,7 @@
 Hbuilder為支援uni-app的IDE [https://www.dcloud.io/](https://www.dcloud.io/)
 
 NodeJS [https://nodejs.org/en/](https://nodejs.org/en/)
+NodeJS文件(server)可用Sublime導入 [https://www.sublimetext.com/](https://www.sublimetext.com/)
 
 打包成APK [https://nativesupport.dcloud.net.cn/AppDocs/README](https://nativesupport.dcloud.net.cn/AppDocs/README)
 
