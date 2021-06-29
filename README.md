@@ -1,6 +1,6 @@
 # ChatApp
 
-![README/Untitled.png](README/Untitled.png)
+![README/Untitled.png](https://github.com/gold9450412/pratice/blob/master/Untitled.png)
 
 因為要寫網路程式，練習寫一個基本的即時聊天app
 
