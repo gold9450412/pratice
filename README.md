@@ -112,7 +112,7 @@ server/server 處理接口進來的資料，處理方法實作在server/dao/dbse
 
 ![ChatApp%20126f2d94a00d45168a213d4ffe5a47f0/Untitled%202.png](https://github.com/gold9450412/pratice/blob/master/README/email_config.png)
 
-3. Hbuilder導入chatapp資料夾後，可依照下圖，在Web端或手機端，邊寫前端邊及時調適。
+3. Hbuilder導入chatapp資料夾後，可依照下圖，將結果編譯至Web端或手機端，邊寫前端邊即時調試。
 
 ![ChatApp%20126f2d94a00d45168a213d4ffe5a47f0/Untitled%203.png](https://github.com/gold9450412/pratice/blob/master/README/compiler1.png)
 
