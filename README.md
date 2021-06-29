@@ -1,6 +1,6 @@
 # ChatApp
 
-![README/Untitled.png](ChatApp%20126f2d94a00d45168a213d4ffe5a47f0/Untitled.png)
+![README/Untitled.png](README/Untitled.png)
 
 因為要寫網路程式，練習寫一個基本的即時聊天app
 
