@@ -1,0 +1,130 @@
+	.content { 
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding-top: var(--status-bar-height);
+	}
+//頭部公用樣式
+
+	.top-bar {
+		 
+		z-index: 1001;
+		position: fixed;
+		top:0;
+		left: 0;
+		width: 100%;
+		height: 68rpx;
+		//background:$uni-bg-color;
+		
+		
+		//box-sizing: border-box;
+		padding-top: var(--status-bar-height);
+		 //box-shadow:0px 1px 0px 0px rgba(0, 0,0, 0.1);
+		/*background:rgba(255,255, 255, 0.96);//帶透明度
+		border-bottom: 2px solid $uni-border-color;*/
+		padding-left: $uni-spacing-col-base;
+		padding-right: $uni-spacing-col-base;
+		.top-bar-left {
+			float: left;	
+			image{
+				width: 68rpx;
+				height: 68rpx;
+				border-radius: 16rpx;
+			}
+			.back-img{
+			 margin-top: 21rpx;
+			 width: 46rpx;
+			 height: 46rpx;
+			} 
+			.text{
+			 font-size: $uni-font-size-lg;
+			 font-weight:  500;
+			 color:  $uni-text-color;
+			 line-height: 88rpx;		 
+			 }
+		}
+		.top-bar-center{
+		position: absolute;	
+		line-height: 61rpx;
+		text-align: center;
+		width: 150rpx;
+		height: 90%;	
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		  
+		.logo{
+
+			padding-top: 5rpx;
+			width: 60rpx;
+			height: 60rpx;
+		}
+	}
+	
+		.top-bar-right{
+		padding-right: 36rpx;	
+		float:right;
+			.pice{
+				width: 88rpx;
+			}
+			.search{
+			display: inline-block;
+			 width: 88rpx;
+			 height: 88rpx;
+			 
+		}
+			.add{
+			display: inline-block;	
+			 width: 88rpx;
+			 height: 88rpx;
+		}
+		.text{
+			
+			 font-size: $uni-font-size-lg;
+			 font-weight:  500;
+			 color:  $uni-text-color;
+			 line-height: 88rpx;	
+			padding-right: 32rpx;
+		} 
+
+		
+
+		.more-img{
+			height: 88rpx;
+			padding-top:  10rpx;
+			
+			padding-right: $uni-spacing-col-base;
+			image{
+				width: 52rpx;
+				height: 52rpx;
+			}
+		}
+	}
+
+	}
+	
+	//底部公用樣式
+	.buttom-bar{
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		height: 90rpx;	
+		padding-top:  10rpx;
+		padding-bottom:var(--status-bar-height);
+	 
+
+	}		
+	
+	//btn1的樣式 注意看userhome的bottom-btn btn1混合用法
+	.btn1{
+			//margin: 0 $uni-spacing-col-base;
+			text-align: center;
+			line-height: 80rpx;
+			font-size: $uni-font-size-lg;
+			color: $uni-text-color;
+			height: 80rpx;
+			//background: $uni-color-primary;
+			border-radius: $uni-border-radius-sm;
+		}
