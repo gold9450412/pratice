@@ -1,6 +1,6 @@
 # ChatApp
 
-![README/Untitled.png](https://github.com/gold9450412/pratice/blob/master/Untitled.png)
+![ChatAPP](https://github.com/gold9450412/pratice/blob/master/README/ChatAPP.png)
 
 因為要寫網路程式，練習寫一個基本的即時聊天app
 
@@ -104,18 +104,18 @@ server/server 處理接口進來的資料，處理方法實作在server/dao/dbse
 
 1.  chatapp/main.js，以下2項修改成自己的IP
 
-![ChatApp%20126f2d94a00d45168a213d4ffe5a47f0/Untitled%201.png](ChatApp%20126f2d94a00d45168a213d4ffe5a47f0/Untitled%201.png)
+![ChatApp%20126f2d94a00d45168a213d4ffe5a47f0/Untitled%201.png](https://github.com/gold9450412/pratice/blob/master/README/IP_config.png)
 
 2. 如果需要註冊完的自動發信功能，需要到server/config/credential.js更改配置
 
 帳號為自己的Gmail，配置密碼(pass) 取得教學:[https://oranwind.org/gmail-smtp/](https://oranwind.org/gmail-smtp/) 
 
-![ChatApp%20126f2d94a00d45168a213d4ffe5a47f0/Untitled%202.png](ChatApp%20126f2d94a00d45168a213d4ffe5a47f0/Untitled%202.png)
+![ChatApp%20126f2d94a00d45168a213d4ffe5a47f0/Untitled%202.png](https://github.com/gold9450412/pratice/blob/master/README/email_config.png)
 
 3. Hbuilder導入chatapp資料夾後，可依照下圖，在Web端或手機端，邊寫前端邊及時調適。
 
-![ChatApp%20126f2d94a00d45168a213d4ffe5a47f0/Untitled%203.png](ChatApp%20126f2d94a00d45168a213d4ffe5a47f0/Untitled%203.png)
+![ChatApp%20126f2d94a00d45168a213d4ffe5a47f0/Untitled%203.png](https://github.com/gold9450412/pratice/blob/master/README/compiler1.png)
 
 4.  用cmd到server底下，輸入node chatapp.js，開啟後端
 
-![ChatApp%20126f2d94a00d45168a213d4ffe5a47f0/Untitled%204.png](ChatApp%20126f2d94a00d45168a213d4ffe5a47f0/Untitled%204.png)
+![ChatApp%20126f2d94a00d45168a213d4ffe5a47f0/Untitled%204.png](https://github.com/gold9450412/pratice/blob/master/README/compiler2.png)
