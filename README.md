@@ -54,27 +54,27 @@ chatapp/static 前端的圖片
 
 chatapp/pages 前端各個頁面程式碼
 
-—buildgroup: 建立群組
+  —buildgroup: 建立群組
 
-—chatroom: 聊天室 
+  —chatroom: 聊天室 
 
-—friendrequest: 好友邀請
+  —friendrequest: 好友邀請
 
-—grouphome: 群組詳情 (未完成)
+  —grouphome: 群組詳情 (未完成)
 
-—index: 首頁
+  —index: 首頁
 
-—search: 搜尋好友/群組
+  —search: 搜尋好友/群組
 
-—signin: 登入頁面
+  —signin: 登入頁面
 
-—signup: 註冊頁面
+  —signup: 註冊頁面
 
-—test: 測試
+  —test: 測試
 
-—userdetails: 使用者介紹
+  —userdetails: 使用者介紹
 
-—userhome: 使用者詳情
+  —userhome: 使用者詳情
 
 ### 後端 NodeJS:
 
@@ -82,15 +82,15 @@ server/config/db.js 連接資料庫及配置
 
 server/dao 主功能資料夾
 
-—bcrypt.js 加密，用來加密密碼，防止密碼外洩
+  —bcrypt.js 加密，用來加密密碼，防止密碼外洩
 
-—dbserver.js 與前端交互的各種功能，全部主要功能都在這
+  —dbserver.js 與前端交互的各種功能，全部主要功能都在這
 
-—emailserver.js 自動發信功能，裡面options內的html，可以用html打造自己的信要長怎樣
+  —emailserver.js 自動發信功能，裡面options內的html，可以用html打造自己的信要長怎樣
 
-—jwt.js 建立token，類似cookie，不必每次開啟都要登入
+  —jwt.js 建立token，類似cookie，不必每次開啟都要登入
 
-—socket.js 主要用於聊天，接收使用者聊天訊息，以及相關處理
+  —socket.js 主要用於聊天，接收使用者聊天訊息，以及相關處理
 
 server/model 定義資料庫結構
 
