@@ -54,7 +54,7 @@ chatapp/static 前端的圖片
 
 chatapp/pages 前端各個頁面程式碼
 
-  —buildgroup: 建立群組
+&emsp—buildgroup: 建立群組
 
   —chatroom: 聊天室 
 
